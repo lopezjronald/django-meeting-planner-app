@@ -1,0 +1,10 @@
+{% load static %}
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'website/style.css' %}" rel="stylesheet">
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
